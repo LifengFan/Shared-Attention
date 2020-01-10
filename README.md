@@ -5,7 +5,7 @@ Introduction
 
 The project is described in the [CVPR 2018 paper: Inferring Shared Attention in Social Scene Videos](https://lifengfan.github.io/files/cvpr18/CVPR18_SharedAttention.pdf).   
 
-![](https://github.com/LifengFan/Shared-Attention/blob/master/doc/teaser.jpg)  
+![](https://github.com/LifengFan/Shared-Attention/blob/master/doc/cvpr_intro.jpg)  
 
 
 Dataset
