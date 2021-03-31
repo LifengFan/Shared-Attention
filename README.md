@@ -3,8 +3,9 @@
 Introduction
 ----
 
-The project is described in the [CVPR 2018 paper: Inferring Shared Attention in Social Scene Videos](https://lifengfan.github.io/files/cvpr18/CVPR18_SharedAttention.pdf).   
+The project is described in our paper [Inferring Shared Attention in Social Scene Videos](https://lifengfan.github.io/files/cvpr18/CVPR18_SharedAttention.pdf) (CVPR2018).   
 
+This paper addresses a new problem of inferring shared attention in third-person social scene videos. Shared attention is a phenomenon that two or more individuals simultaneously look at a common target in social scenes. Perceiving and identifying shared attention in videos plays crucial roles in social activities and social scene understanding. We propose a spatial-temporal neural network to detect shared attention intervals in videos and predict shared attention locations in frames. In each video frame, human gaze directions and potential target boxes are two key features for spatially detecting shared attention in the social scene. In temporal domain, a convolutional Long ShortTerm Memory network utilizes the temporal continuity and transition constraints to optimize the predicted shared attention heatmap. We collect a new dataset VideoCoAtt from public TV show videos, containing 380 complex video sequences with more than 492,000 frames that include diverse social scenes for shared attention study. Experiments on this dataset show that our model can effectively infer shared attention in videos. We also empirically verify the effectiveness of different components in our model.
 ![](https://github.com/LifengFan/Shared-Attention/blob/master/doc/cvpr_intro.jpg)  
 
 
@@ -12,6 +13,11 @@ Dataset
 ----
 
 You can download the dataset [here](https://drive.google.com/file/d/1Fp79WQjgOxOXlflZGCh2jlPat8cJenzJ/view). The dataset is available for free only for research purposes.
+
+Demo
+----
+
+Here is a [demo](https://www.dropbox.com/s/3a68pfd85b63y7j/demo.mp4?dl=0) to show more vivid and dynamic results.
 
 
 Citation
