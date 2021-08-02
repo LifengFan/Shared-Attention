@@ -6,10 +6,8 @@ import matplotlib.pyplot as plt
 ##output:
 ##heatmap+boundingbox->scored box->threshold&IOU/I->(ifframe,tp,#detected,#proposal,num_ca)
 
-gaze_dir_prefix = '/home/lfan/Dropbox/JointAttention/tested_face_direction/test/'
-prop_path = '/home/lfan/Dropbox/JointAttention/bbx proposal/'
-RANGE = 1001
-
+gaze_dir_prefix = '/home/yixin/Dropbox/JointAttention/tested_face_direction/test/'
+prop_path = '/media/yixin/Elements/bbx_proposal/'
 RANGE = 1000
 
 def eval_bbx(heatmap,list_now):
