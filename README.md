@@ -12,7 +12,7 @@ This paper addresses a new problem of inferring shared attention in third-person
 Dataset
 ----
 
-You can download the dataset [here](https://docs.qq.com/form/page/DTnpmc2pFeWNVZENx). The dataset is available for free only for research purposes.
+You can download the dataset [here](https://forms.gle/uCZjaHdWAMZKfVFT8). The dataset is available for free only for research purposes.
 
 Demo
 ----
